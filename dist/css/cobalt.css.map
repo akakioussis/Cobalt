@@ -1,0 +1,9 @@
+{
+	"version": 3,
+	"file": "cobalt.css",
+	"sources": [
+		"../../src/scss/cobalt.scss"
+	],
+	"names": [],
+	"mappings": "AAAA,OAAO,CAAC,qDAAI;AAEZ,AAAA,CAAC,CAAC;EACA,UAAU,EAAE,UAAU,GACvB;;AAED,AAAA,IAAI,CAAC;EACH,WAAW,EAAE,oBAAoB,GAClC"
+}
