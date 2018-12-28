@@ -10,9 +10,17 @@
     "sass:watch": "chokidar 'src/scss/**/*.scss' -c 'npm run sass:build'",
     "dev": "npm-run-all -p sass:*"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/georgebutler/Cobalt.git"
+  },
   "keywords": [],
   "author": "George Butler",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/georgebutler/Cobalt/issues"
+  },
+  "homepage": "https://github.com/georgebutler/Cobalt#readme",
   "devDependencies": {},
   "dependencies": {
     "autoprefixer": "^9.4.3",
