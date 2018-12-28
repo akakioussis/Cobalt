@@ -1,9 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Nunito');
+// http://sass-lang.com/documentation/Sass/Script/Functions.html
 
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: 'Nunito', sans-serif;
-}
+@import './modules/variables';
+@import './modules/base';
+@import './modules/buttons';
+@import './modules/links';
+@import './modules/typography';

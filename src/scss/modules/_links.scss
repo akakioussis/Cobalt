@@ -1,0 +1,14 @@
+/* Links
+--------------------------------------------- */
+a {
+  color: $primary-invert;
+}
+
+a:hover {
+  color: darken($primary-invert, 15%);
+}
+
+::selection {
+  background: $primary;
+  color: $primary-invert;
+}

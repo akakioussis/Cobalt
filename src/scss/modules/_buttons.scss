@@ -1,0 +1,67 @@
+/* Buttons
+--------------------------------------------- */
+.button,
+button,
+input[type='submit'],
+input[type='reset'],
+input[type='button'] {
+  background-color: transparent;
+  border-radius: 4px;
+  border: 1px solid darken($white, 5%);
+  box-sizing: border-box;
+  color: $black;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 600;
+  height: 38px;
+  letter-spacing: 0.1rem;
+  line-height: 38px;
+  padding: 0 30px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+.button:hover,
+button:hover,
+input[type='submit']:hover,
+input[type='reset']:hover,
+input[type='button']:hover,
+.button:focus,
+button:focus,
+input[type='submit']:focus,
+input[type='reset']:focus,
+input[type='button']:focus {
+  border-color: darken($white, 15%);
+  color: $black;
+  outline: 0;
+}
+.button.button-primary,
+button.button-primary,
+input[type='submit'].button-primary,
+input[type='reset'].button-primary,
+input[type='button'].button-primary {
+  color: $primary-invert;
+
+  background: $primary;
+  background: -webkit-linear-gradient(to right, $secondary, $primary);
+  background: linear-gradient(to right, $secondary, $primary);
+}
+.button.button-primary:hover,
+button.button-primary:hover,
+input[type='submit'].button-primary:hover,
+input[type='reset'].button-primary:hover,
+input[type='button'].button-primary:hover,
+.button.button-primary:focus,
+button.button-primary:focus,
+input[type='submit'].button-primary:focus,
+input[type='reset'].button-primary:focus,
+input[type='button'].button-primary:focus {
+  color: darken($primary-invert, 15%);
+
+  background: darken($primary, 15%);
+  background: -webkit-linear-gradient(to right, darken($secondary, 15%), darken($primary, 15%));
+  background: linear-gradient(to right, darken($secondary, 15%), darken($primary, 15%));
+}
